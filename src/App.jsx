@@ -43,7 +43,7 @@ export default function App() {
     : []
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 transition-colors duration-300">
+    <div className="min-h-screen bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300">
       <div className="max-w-3xl mx-auto px-5 py-7">
 
         <div className="flex items-start justify-between mb-7">

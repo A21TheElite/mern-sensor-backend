@@ -10,7 +10,7 @@ export default function StatusBar({ status, error, lastFetchTime }) {
   const msg = status === 'err' ? `Error: ${error}` : cfg.msg
 
   return (
-    <div className="flex items-center gap-3 bg-slate-800/50 border border-slate-700/60 rounded-xl px-4 py-2.5 mb-5 font-mono text-xs">
+    <div className="flex items-center gap-3 bg-slate-100 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/60 ...">
       <div className={`w-2 h-2 rounded-full flex-shrink-0 ${cfg.dot}`} />
       <span className="text-slate-400">{msg}</span>
       {lastFetchTime && (
